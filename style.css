@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    /* color: white; */
+}
+
+.imgjmbo{
+ /* border: 2px solid red; */
+
+ /* height: 100vh; */
+ height: 50rem;
+ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url('/images/background.jpg');
+ background-repeat: no-repeat;
+ background-size: 100%,100%;
+ /* background-color: white; */
+}
+nav .navbar-nav li a{
+    color: white !important;
+    }
+.dropMenu{
+    background-color: rgb(5, 5, 5);
+    /* color: black; */
+}
+#aboutUs{
+    margin-top: 2em;
+}
+.dropMenu{
+    opacity: 0.5;
+}
+.getorder{
+    position:relative;
+    left: 4em;
+    top: 8em;
+}
+.getorder h1 {
+    font-size: 4em;
+    color: wheat;
+}
+
+ .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 6px;
+    bottom: 2px;
+    background-color: yellow;
+    padding: 1em;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 5em;
+    margin-left: -11%;
+    display: inline;
+    border: 2px dotted yellow;
+  }
+  .sticky a{
+      text-decoration: none;
+  }
+
+
+.ZipText{
+    border-radius: 5px;
+    width: 12em;
+    display: inline;
+}
+.active{
+    color: white;
+}
+
+.para{
+    font-size: 20px;
+    line-height: 2;
+}
+/* certificates */
+.carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  .certificate{
+      height: 20em;
+      /* width: 100%; */
+  }
+  .container h1{
+      text-align: center;
+  }
+
+  .img{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+ .img img{
+     width: 15em;
+ } 
+
+ .footer{
+     height: 50vh;
+     background-color: #567556D6;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .footer div p{
+     font-size: 1.2em;
+ }
+
+ .socialmedia img{
+     width: 2em;
+     height: 2em;
+ }
